@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 1.	Using CSS and HTML Make a webpage that has two columns. Each column should use half of the width of the page. The left half should have a light gray background and the right half should have a light green background. The left half should have a list of the 5 bestselling books in Amazon’s kindle store, and the right should have a list of your five favorite celebrities or athletes. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Columns Page </title>
+    <style>
+        .container{
+            display: flex;
+            width: 100%;
+            height: 1000px;
+        }
+        .books{
+            background-color: rgb(198, 196, 196);
+            width: 50%;
+            padding: 20px;
+            
+        }
+        .stars{
+            background-color: rgb(110, 252, 110);
+            width: 50%;
+            padding: 20px;
+            
+        }
+        li{
+            list-style-type: none;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="books"> 
+    <h1>Top 5 best selling books in Amazon's Kindle Store</h1>
+    <ul>
+        <li>1. The Teacher: A Psychological Thriller by Freida McFadden</li>
+        <li>2. The Women: A Novel by Kristin Hannah</li>
+        <li>3. Never Lie: An addictive psychological thriller by Freida McFadden</li>
+        <li>4. Ask for Andrea: A Thriller by Noelle West Ihli</li>
+        <li>5. Storms and Secrets: A Small-Town Romance by Claire Kingsley </li>
+    </ul>
+</div>
+
+<div class="stars"> 
+    <h1>5 Favourite Celebrities or Athletes</h1>
+    <ul>
+        <li>1. M.S. Dhoni</li>
+        <li>2. Virat Kohli</li>
+        <li>3. Tom Cruise</li>
+        <li>4. Jackie Chan</li>
+        <li>5. Arijit Singh</li>
+    </ul>
+</div>
+</div>
+</body>
+</html>
